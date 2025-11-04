@@ -57,32 +57,6 @@ The gradient colors can be customized in the CSS:
 - Background gradient: Change `#667eea` and `#764ba2`
 - Hover effects: Change `#667eea` in the `.link-item:hover` section
 
-## 📱 Features
-
-- ✅ Fully responsive design
-- ✅ Modern gradient background
-- ✅ Smooth hover animations
-- ✅ Mobile-friendly
-- ✅ No external dependencies
-- ✅ Fast loading
-- ✅ SEO-friendly
-
-## 🌐 Browser Support
-
-Works on all modern browsers:
-- Chrome
-- Firefox
-- Safari
-- Edge
-
-## 📄 License
-
-Feel free to use this template for your own portfolio!
-
-## 🤝 Contributing
-
-This is a simple template, but feel free to fork and customize it to your needs!
-
 ---
 
 Made with ❤️ for GitHub Pages
