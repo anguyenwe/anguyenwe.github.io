@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Links and Resources">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #718096;
+            font-size: 1.1em;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            padding: 18px 24px;
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #2d3748;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .link-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-color: #667eea;
+            background: #edf2f7;
+        }
+
+        .link-icon {
+            font-size: 24px;
+            margin-right: 15px;
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .link-text {
+            flex: 1;
+        }
+
+        .link-arrow {
+            color: #a0aec0;
+            font-size: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            .link-item {
+                padding: 15px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-image">MP</div>
+            <h1>Your Name</h1>
+            <p class="subtitle">Developer | Designer | Creator</p>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/yourusername" class="link-item" target="_blank" rel="noopener noreferrer">
+                <span class="link-icon">💻</span>
+                <span class="link-text">GitHub</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://linkedin.com/in/yourusername" class="link-item" target="_blank" rel="noopener noreferrer">
+                <span class="link-icon">💼</span>
+                <span class="link-text">LinkedIn</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://twitter.com/yourusername" class="link-item" target="_blank" rel="noopener noreferrer">
+                <span class="link-icon">🐦</span>
+                <span class="link-text">Twitter</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="mailto:your.email@example.com" class="link-item">
+                <span class="link-icon">📧</span>
+                <span class="link-text">Email Me</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://yourwebsite.com" class="link-item" target="_blank" rel="noopener noreferrer">
+                <span class="link-icon">🌐</span>
+                <span class="link-text">Personal Website</span>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://medium.com/@yourusername" class="link-item" target="_blank" rel="noopener noreferrer">
+                <span class="link-icon">📝</span>
+                <span class="link-text">Blog</span>
+                <span class="link-arrow">→</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Your Name. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
